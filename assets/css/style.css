@@ -97,6 +97,10 @@ main .col-4{
     left:0;
 }
 
+.last{
+    left:0;
+    bottom: 150px;
+}
 .eco,
 .sales,
 .heart {
