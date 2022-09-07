@@ -136,3 +136,30 @@ main .col-4{
 }
 
 /* #endregion main */
+
+/* #region footer */
+footer{
+    background-color: var(--bol-footer);
+    color: white;
+    padding: 1.5rem;
+}
+
+footer .row{
+    justify-content: space-between;
+}
+h2 {
+    font-size: 15px;
+    padding-bottom: 0.5rem;
+
+}
+
+span{
+    padding-right: 1rem;
+    font-size: 10px;
+}
+
+.social{
+    text-align: center;
+}
+
+/* #endregion footer */
