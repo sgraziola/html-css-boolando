@@ -37,9 +37,11 @@ header {
     background-color: var(--bol-header);
     color: white;
     box-shadow: 0 0 10px gray;
+    padding: 1rem 0;
 }
 
-.target span, .account i{
+.target span,
+.account i {
     padding-right: 0.5rem;
 }
 
@@ -59,11 +61,60 @@ header {
 /* #endregion header */
 
 /* #region main */
-.model{
+.model {
     max-width: 100%;
 }
 
-.col-4{
-    padding: 1rem 0.5rem;
+main .col-4 {
+    padding: 1rem 0rem;
+    position: relative;
 }
+
+.eco {
+    background-color: var(--bol-eco);
+    color: white;
+    bottom: 150px;
+    left: 58px;
+}
+
+.sales {
+    background-color: var(--bol-discount);
+    color: white;
+    bottom: 150px;
+    left:0;
+}
+
+.eco,
+.sales,
+.heart {
+    width: max-content;
+    padding: 0.25rem 0.5rem;
+    font-weight: bold;
+    position: absolute;
+}
+
+.price{
+    font-size: small;
+}
+
+.price strong{
+    color: var(--bol-discount);
+}
+
+.not_sale{
+    text-decoration: line-through;
+}
+
+.heart{
+    font-size: 35px;
+    right: 0;
+    top: 25px;
+    padding: 2px 12px;
+    background-color: white;
+}
+
+.col-4::hover {
+    cursor: pointer;
+}
+
 /* #endregion main */
