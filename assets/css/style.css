@@ -5,4 +5,65 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bol-hearts: #000000;
+    --bol-eco: #008000;
+    --bol-footer: #1A1A1A;
+    --bol-discount: #FF0000;
+    --bol-header: #FF6900;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
 /* #endregion Common */
+
+/* #region utilities */
+/* #endregion utilities */
+
+/* #region header */
+header {
+    background-color: var(--bol-header);
+    color: white;
+    box-shadow: 0 0 10px gray;
+}
+
+.target span, .account i{
+    padding-right: 0.5rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+.sito {
+    text-align: center;
+}
+
+.account {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* #endregion header */
+
+/* #region main */
+.model{
+    max-width: 100%;
+}
+
+.col-4{
+    padding: 1rem 0.5rem;
+}
+/* #endregion main */
