@@ -65,9 +65,19 @@ header {
     max-width: 100%;
 }
 
-main .col-4 {
+.model_hover{
+    max-width: 100%;
+    display: none;
+    position: absolute;
+    top: 16px;
+    left: 0;
+    z-index: 2;
+}
+
+.card {
     padding: 1rem 0rem;
     position: relative;
+    display: inline-block;
 }
 
 .eco {
@@ -91,6 +101,7 @@ main .col-4 {
     padding: 0.25rem 0.5rem;
     font-weight: bold;
     position: absolute;
+    z-index: 3;
 }
 
 .price{
@@ -113,7 +124,11 @@ main .col-4 {
     background-color: white;
 }
 
-.col-4::hover {
+.card:hover .model_hover{
+    display:inline;
+}
+
+.card:hover{
     cursor: pointer;
 }
 
