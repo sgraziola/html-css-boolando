@@ -69,13 +69,16 @@ header {
     max-width: 100%;
     display: none;
     position: absolute;
-    top: 16px;
+    top: 0;
     left: 0;
     z-index: 2;
 }
 
+main .col-4{
+    padding: 2rem 0.5rem;
+}
+
 .card {
-    padding: 1rem 0rem;
     position: relative;
     display: inline-block;
 }
