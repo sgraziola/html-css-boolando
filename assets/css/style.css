@@ -41,6 +41,9 @@ header {
     color: white;
     box-shadow: 0 0 10px gray;
     padding: 1rem 0.5rem;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 }
 
 .target span,
@@ -64,6 +67,7 @@ header {
 /* #endregion header */
 
 /* #region main */
+
 .model {
     max-width: 100%;
 }
